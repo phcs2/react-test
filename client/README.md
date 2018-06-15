@@ -1,6 +1,6 @@
 # Test React app with a simple server
 
-It is a React version of [funbox test](https://github.com/phcs2/funbox-test) 
+It is a React version of [FUNBOX test](https://github.com/phcs2/funbox-test).
 
 This project is based on [create-react-app with a server example](https://github.com/fullstackreact/food-lookup-demo).
 
