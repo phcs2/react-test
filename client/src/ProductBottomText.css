@@ -1,0 +1,14 @@
+.ProductBottomText__text {
+  margin: 14px 0;
+  font-size: 13px;
+  text-align: center; }
+  .Product[state='disabled'] .ProductBottomText__text {
+    color: #ffff66; }
+  .ProductBottomText__text span {
+    color: #1698d9; }
+  .ProductBottomText__text i {
+    font-style: normal;
+    border-bottom: 1px dashed #1698d9;
+    cursor: pointer; }
+  body.no-mobile .ProductBottomText__text i:hover {
+    color: #2ea8e6; }

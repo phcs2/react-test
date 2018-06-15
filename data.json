@@ -1,0 +1,48 @@
+[
+    {
+        "hoverable": true,
+        "productState": "enabled",
+        "topText": "Сказочное заморское яство",
+        "topTextHover": "Котэ не одобряет?",
+        "heading": "Нямушка",
+        "smallHeading": "с фуа-гра",
+        "desc": ["<strong>10</strong> порций", "мышь в подарок"],
+        "weight": "0,5",
+        "weightUnits": "кг",
+        "img": "cat.jpg",
+        "img2x": "cat-2x.jpg",
+        "imgAlt": "Фото котика",
+        "bottomTextSelected": "Печень утки разварная с артишоками."
+    },
+    {
+        "hoverable": true,
+        "productState": "selected",
+        "topText": "Сказочное заморское яство",
+        "topTextHover": "Котэ не одобряет?",
+        "heading": "Нямушка",
+        "smallHeading": "с рыбой",
+        "desc": ["<strong>40</strong> порций", "2 мыши в подарок"],
+        "weight": "2",
+        "weightUnits": "кг",
+        "img": "cat.jpg",
+        "img2x": "cat-2x.jpg",
+        "imgAlt": "Фото котика",
+        "bottomTextSelected": "Головы щучьи с чесноком да свежайшая сёмгушка."
+    },
+    {
+        "hoverable": true,
+        "productState": "disabled",
+        "topText": "Сказочное заморское яство",
+        "topTextHover": "Котэ не одобряет?",
+        "heading": "Нямушка",
+        "smallHeading": "с курой",
+        "desc": ["<strong>100</strong> порций", "5 мышей в подарок", "заказчик доволен"],
+        "weight": "5",
+        "weightUnits": "кг",
+        "img": "cat.jpg",
+        "img2x": "cat-2x.jpg",
+        "imgAlt": "Фото котика",
+        "bottomTextSelected": "Филе из цыплят с трюфелями в бульоне."
+    }
+
+]

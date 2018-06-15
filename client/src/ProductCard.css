@@ -1,0 +1,90 @@
+.ProductCard {
+  position: relative;
+  padding: 20px 16px 0 48px;
+  height: 480px;
+  cursor: pointer; }
+
+.ProductCard__top-text {
+  margin: 0;
+  font-size: 16px;
+  color: #666666; }
+  .Product[state='disabled'] .ProductCard__top-text {
+    color: #b3b3b3; }
+  .ProductCard__top-text:last-of-type {
+    display: none;
+    color: #e52e7a; }
+  body.no-mobile .hoverable[state='selected'] .ProductCard:hover .ProductCard__top-text:first-of-type {
+    display: none; }
+  body.no-mobile .hoverable[state='selected'] .ProductCard:hover .ProductCard__top-text:last-of-type {
+    display: block; }
+
+.ProductCard__heading {
+  margin-top: 10px;
+  margin-left: -2px;
+  margin-bottom: 0;
+  font-size: 48px;
+  line-height: 1;
+  color: #000000; }
+  .Product[state='disabled'] .ProductCard__heading {
+    color: #b3b3b3; }
+
+.ProductCard__small-heading {
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-size: 24px;
+  color: #000000; }
+  .Product[state='disabled'] .ProductCard__small-heading {
+    color: #b3b3b3; }
+
+.ProductCard__desc {
+  margin: 15px 0 0;
+  padding: 0;
+  list-style: none; }
+
+.ProductCard__desc-item {
+  font-size: 14px;
+  color: #666666; }
+  .Product[state='disabled'] .ProductCard__desc-item {
+    color: #b3b3b3; }
+
+.ProductCard__weight {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6px;
+  width: 81px;
+  height: 81px;
+  background-color: #1698d9;
+  border-radius: 50%; }
+  .Product[state='disabled'] .ProductCard__weight {
+    background-color: #b3b3b3; }
+  body.no-mobile .hoverable[state='enabled'] .ProductCard:hover .ProductCard__weight {
+    background-color: #2ea8e6; }
+  .Product[state='selected'] .ProductCard__weight {
+    background-color: #d91667; }
+  body.no-mobile .hoverable[state='selected'] .ProductCard:hover .ProductCard__weight {
+    background-color: #e52e7a; }
+
+.ProductCard__weight-digits {
+  margin: 0;
+  font-size: 42px;
+  line-height: 1; }
+
+.ProductCard__weight-units {
+  margin: -2px 0 0;
+  font-size: 21px;
+  line-height: 1; }
+
+.ProductCard__img {
+  position: absolute;
+  z-index: -1;
+  left: 4px;
+  bottom: 4px;
+  border-bottom-left-radius: 8px; }
+  .Product[state='disabled'] .ProductCard__img {
+    opacity: 0.5; }
